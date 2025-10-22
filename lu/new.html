@@ -1,531 +1,8 @@
-<style>
-
-.css-1uc6ljn, .css-1uc6ljn:hover {
-    box-shadow: 
-        0 0 10px 2px white,
-        0 0 20px 5px turquoise;
-    background: #172b2b1f;
-    background-color: #172b2b1f;
-}
-
-.css-13wmn96, .css-13wmn96:hover {
-    box-shadow: 
-        0 0 10px 2px white,
-        0 0 20px 5px turquoise;
-}
-
-.css-o5an2m, .css-o5an2m:hover {
-    text-shadow: 
-        0 0 10px 2px white,
-        0 0 20px 5px turquoise;
-}
-
-.povstyle {
-    color: white;
-    text-shadow: 
-        0 0 10px 2px white,
-        0 0 20px 5px turquoise;
-}
-
-/* === SECTION TO CHANGE THE COLORS OF THIS PROFILE THEME  === */
-/* pick 5 colors, from white/light to dark/black. Then go through this section and change the colors and the profile should swap to your preferred color scheme! */
-/* == LIGHTEST COLOR SECTION == */
-/* text & icons*/
-.css-19h42zx a,svg, .Btn, .css-1yhasuw, .glow-on-hover:hover:after, .css-18yip8r, .css-xl71ch svg, #search-input, .css-15w88gn, .Btn2-purple > .css-wd8hou p::after,  .css-euh5x6, .css-zgqw37, .css-6pkpcc, .css-7l95y2, .css-1on0xzz, .css-g6u0eg, .css-1f84q7v, .css-19n8j7q, .css-q0xxaj, .css-313uz2 p, .css-1mdnznj, .css-15w88gn, .css-19h42zx, .css-1n2in4t, .css-x2gqu0, .pp-cc-tags-wrap-custom span, .dark .react-select__dropdown-indicator, .colored .react-select__dropdown-indicator, .transparent .react-select__dropdown-indicator, .react-select__menu-portal .react-select__dropdown-indicator {
-    color: white;
-   fill:turquoise !important;
-}
-.css-1n2in4t > svg, .css-8l42c1 > svg, .css-xl71ch > svg /* tag box and announcements icon */ {
-    color: white !important;
-}
-/* background */
-.css-2zp1xp, .css-1s5evre:hover .css-zgqw37, .Btn:hover, .Btn[data-hover], .css-15w88gn:hover, .css-15w88gn[data-hover] {
-    background: white;
-    background-color: white;
-}
-/* border */
-.css-1w58nos, .css-oqdsp6, .css-19h42zx, .css-1w58nos, .css-19h42zx {
-    border: 1px solid white;
-}
-/*==========================================*/
-
-/* == LIGHT COLOR SECTION == */
-.search-input:after, .css-bda9ez, .css-96l1id, .css-96l1id p, .css-96l1id p > span, .css-bar9lc div:has(svg), .dark .react-select__placeholder, .colored .react-select__placeholder, .css-8l42c1, .transparent .react-select__placeholder, .dark .react-select__single-value, .colored .react-select__single-value, .transparent .react-select__single-value, .react-select__menu-portal .react-select__placeholder, .react-select__menu-portal .react-select__single-value, .css-178jenf, .Btn2-purple strong, .css-15p9u6a, .css-18yip8r:hover, .css-313uz2 a, .css-vdzdjh > strong, .css-wd8hou strong, .css-scy8li {
-    color: gray;
-}
-/*==========================================*/
-
-/* == MEDIUM COLOR SECTION == */
-/* text - this can be slightly lighter as well. */
-.css-1knepg6, css-1q6w2dx, .css-1utguok  {
-color: #363636;
-}
-/* borders */
-.css-g6u0eg, .search-input, .css-3rot3, .css-1n2in4t, .css-vqimyu > div:first-child, .css-1sxhvxh .css-0, .css-12lnk4a .css-0, .css-v57joh .css-0, .Btn, .Btn:hover, .Btn[data-hover], .css-15w88gn, .css-v8syye, .css-pibr72, .css-fv6c2q, .dark.react-select-control, .colored.react-select-control, .transparent.react-select-control, .chakra-ui-dark.react.select-control, .chakra-ui-dark.react.select-menu, .chakra-ui-dark.react.select-option, .chakra-ui-dark.react.select-option:hover, .chakra-ui-dark.react.select-option.selected, .chakra-ui-dark.react.select-indicator-separator, .chakra-ui-dark.react.select-dropdown-indicator, .chakra-ui-dark.react.select-placeholder, .chakra-ui-dark.react.select-single-value, .chakra-ui-dark.react.select-menu.portal.control, .chakra-ui-dark.react.select-menu.portal.menu, .chakra-ui-dark.react.select-menu.portal.option, .css-x2gqu0, .pp-cc-tags-wrap-custom span, .css-1pibr72, .css-1fv6c2q, .css-1w58nos, .dark .react-select__control, .colored .react-select__control, .transparent .react-select__control, .react-select__menu-portal .react-select__control, .css-x2gqu0:hover, .css-x2gqu0[data-hover]  {
-    border: 1px solid #363636;
-}
-/*==========================================*/
-
-/* == DARK COLOR SECTION == */
-/* background */
-.css-g6u0eg, .css-x2gqu0, .pp-cc-tags-wrap-custom span, .css-zgqw37, .css-6pkpcc, .css-7l95y2, .css-1on0xzz, details summary::before, details, .pp-page-background, .css-1a7v8fx, .dark .react-select__indicator-separator, .colored .react-select__indicator-separator, .transparent .react-select__indicator-separator, .react-select__menu-portal .react-select__indicator-separator, .dark .react-select__option:hover, .colored .react-select__option:hover, .transparent .react-select__option:hover, .react-select__menu-portal .react-select__option:hover {
-    background-color: #141414;
-}
-/* borders */
-details[open] .details-content {
-    border: 1px solid #141414;
-}
-/*==========================================*/
-
-/* == DARKEST COLOR SECTION == */
-/* text */
-.dark .react-select__option--is-selected, .css-1s5evre:hover .css-zgqw37, .colored .react-select__option--is-selected, .transparent .react-select__option--is-selected, .react-select__menu-portal .react-select__option--is-selected, .Btn:hover, .Btn[data-hover], .css-15w88gn:hover, .css-15w88gn[data-hover] {
-    color: black;
-}
-/* background */
-.css-p641ht, .css-15w88gn, .css-1w58nos, .search-input, .css-1n2in4t, .css-8l42c1, .css-19cg9cj, .css-1pibr72, .css-1fv6c2q, div:has(~ .css-1s5evre), .chakra-ui-dark .css-irb94a:not([data-theme]), [data-theme="dark"] .css-irb94a:not([data-theme]), .css-irb94a[data-theme="dark"], .transparent .react-select__control, .dark .react-select__control, .colored .react-select__control, .transparent .react-select__control, .react-select__menu-portal .react-select__control, .dark .react-select__menu, .colored .react-select__menu, .transparent .react-select__menu, .react-select__menu-portal .react-select__menu, .Btn:hover,.Btn[data-hover], .Btn, .css-v8syye, .details-content, .css-3rot3, .css-19akvax, .css-19h42zx, .css-1skvcpg, .css-bqd4p6, .css-1qf4tpw {
-    background: rgb(56, 56, 56);
-    background-color: rgb(56, 56, 56);
-}
-/* borders */
-.css-jdhqy4 > div {
-    border: 1px solid black;
-}
-/*===========END OF SECTION==========*/
-
-/* OTHER COLOR CHANGES SECTION*/
-/* text */
-p { 
-color: white;
-}
-/* links */
-a {
-color: white;
-}
-a:hover {
-color: #7f7f7f;
-}
-/* highlight color */
-::selection {
-    background: #7f7f7f !important;
-    color: white;
-}
-/*===========END OF SECTION==========*/
-
-/*=============HEADER SECTION============*/
-/* HEADER */
-.css-p641ht {
-    box-shadow: none;
-    backdrop-filter: none;
-}
-/* JANITORAI LOGO */
-.css-e8xvxi /* background */ { 
-  border: 0px;
-  background: transparent;
-  box-shadow: none;
-  backdrop-filter: none;
-  text-shadow: none;
-}
-
-.css-e8xvxi /* background */ { 
-  border: 0px;
-  background: transparent;
-  box-shadow: none;
-  backdrop-filter: none;
-  text-shadow: none;
-}
-
-.pp-top-bar-logo-name /* text*/ {
-    font-family: 'DM SANS';
-    font-weight: 600;
-    font-size: 2em;
-    color: white;
-}
-
-/* "beta" PART OF LOGO */
-.pp-top-bar-logo-sub-name {
-    font-weight: 400;
-    font-family: Raleway;
-    color: white;
-}
-/*==========================================*/
-
-/* CREATE A CHARACTER BUTTON SECTION */
-/*the text*/
-.css-1yhasuw {
-  font-family: 'DM SANS';
-  text-transform: uppercase;
-  position: relative;
-  background: none;
-}
-.glow-on-hover::before, .glow-on-hover::after {
-  background: none;
-}
-/*==========================================*/
-
-/* ANNOUNCEMENTS & NOTIF BUTTONS SECTION*/
-/* notifs */
-.css-18yip8r ,.css-18yip8r:hover{
-background: none;
-}
-/* notif alert — the purple dot */
-.css-2zp1xp {
-background-color: #ffffff;
-outline: rgb(0 0 0) solid 1px;
-}
-/* announcements */
-.css-fss3o9, .css-fss3o9 > div {
-background: none;
-}
-/*==========================================*/
-
-/* credits to procrastination ♡*/
-/* SEARCH BAR SECTION */
-._mentions--singleLine_ulsrn_1,
-#search-input {
-    margin: 0;
-    top: 50% !important;
-    transform: translateY(-50%);
-}
-/* DEFAULT TEXT AND PLACEHOLDER */
-/* style for the search input or typed text */
-#search-input {
-    font-family: 'Lato', sans-serif !important;
-    font-size: 1rem !important;
-    font-weight: normal;
-    caret-color: #fff;
-    transition: color 600ms ease, caret-color 600ms ease;
-}
-/* makes the original placeholder text invisible*/
-#search-input::placeholder {
-    opacity: 0;
-}
-/* THE NEW PLACEHOLDER TEXT */
-.search-input:after {
-    content: "can't find what you're looking for? search here . . .";
-    font-family: 'Lato', sans-serif;
-    font-size: 1rem;
-    font-weight: normal;
-    position: absolute;
-    max-width: 68%; /* not noticeable unless on a smaller device */
-    top: 50%;
-    transform: translateY(-50%);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; /* adds an ellipsis instead of an abrupt cut-off when the text is too long */
-    pointer-events: none;
-    transition: color 600ms ease, opacity 300ms ease; /* if you don't want the placeholder text to subtly fade in/out, remove the opacity transition here */
-}
-/* hides the typed text by default */
-#search-input,
-.css-bar9lc:focus-within .search-input:after,
-.search-input:has(#search-input:not(:placeholder-shown)):after {
-    opacity: 0;
-}
-/* makes the typed text visible when the search bar has text inside or is clicked on */
-.css-bar9lc:focus-within #search-input,
-.search-input:has(#search-input:not(:placeholder-shown)) #search-input {
-    opacity: 1;
-}
-
-/*==========================================*/
-
-/*  STYLING THE SEARCH BAR  */
-/* prevents the new placeholder text from overflowing the search bar & changes the background color of the search bar */
-.search-input {
-    position: relative;
-    overflow: hidden;
-    border-radius: 2px;
-    transition: background-color 600ms ease;
-}
-    /* optional, changes the svgs */
-.css-bar9lc div:has(svg) {
-    opacity: 1; /* svgs are semi-transparent by default */
-    transition: color 600ms ease;
-}
-/* makes it so that the color of all text and svgs changes on hover with the search bar */
-.css-bar9lc:hover .search-input:after,
-.css-bar9lc:hover div:has(svg),
-.css-bar9lc:hover #search-input {
-    color: white;
-    caret-color: white;
-}
-.css-bar9lc:hover .search-input {
-    background-color: transparent;
-}
-.search-input:hover {
-    box-shadow: none;
-}
-/*===========END OF SECTION==========*/
-
-/*========PROFILE CARD SECTION==========*/
-/* DELETE THIS TO GET THE "OLD STYLE" AVATAR/USERNAME BACK */
-/* makes pfp go over username */
-.css-1uodvt1 { 
-    padding-top: 0px;
-    flex-direction: column;
-    justify-items: center;
-    text-align: center;
-}
-.css-5khvnw { 
-    display: none;
-}
-.css-18bnokj { 
-    height: 450px;
-    width: 300px; 
-    border-radius: 1pc; 
-    border: 0px black;
-    box-shadow: none !important; 
-    mask-image: linear-gradient(to bottom, black 50%, transparent);
-}
- .css-70qvj9  { 
-    font-family: 'Lucida Sans';
-    font-size: 14px;
-    color: white;
-    text-shadow: 0px 0px black; 
-    -webkit-text-stroke: 0px black; 
-}
-.css-1ciz3n { 
-    display: none;
-    font-family: 'Lucida Sans';
-    font-size: 11px;
-    color: white;
-    background: transparent;
-    border: 0px black;
-}
-.css-wjj1lc { 
-    display: none;
-}
-.css-hjkukh { 
-    display: none;
-    position: relative;
-    justify-content: center; 
-    filter: FILTER; 
-}
-.Btn:before { 
-    color: yellow; 
-    background-color: purple; 
-    font-family: 'Lucida Sans';
-}
-.Btn { 
-    background: black;
-} 
-.css-y9k5u7 { 
-    justify-content: center; 
-}
-
-
-
-details summary::-webkit-details-marker {
-  display: none
-}
-
-details > summary {
-  list-style: none;
-}
-
-
-
-.profile-block {
-  text-align: center;
-  font-family: 'Lucida Sans';
-  font-size: 20px;
-  border: 1px solid black;
-  border-radius: 12px;
-  margin: 10px 0;
-  
-  overflow: hidden; 
-}
-
-.profile-block summary {
-  background-color: white;
-  color: black;
-  cursor: pointer;
-  list-style: none; 
-  padding: 10px 15px;
-  border-radius: 3px 3px 0 0;
-}
-
-.profile-block .profile-block-content {
-  background-color: darkgray; 
-  padding: 15px;
-  border-top: 1px solid darkgray;
-}
-
-/*==========================================*/
-
-/* USERNAME */
-
-.css-1uodvt1 { 
-    padding-top: 0px;
-    flex-direction: column;
-    justify-items: center;
-    text-align: center;
-}
-.css-5khvnw { 
-    display: none;
-}
-.css-18bnokj { 
-    height: 450px;
-    width: 300px; 
-    border-radius: 1pc; 
-    border: 0px black;
-    box-shadow: none !important; 
-    mask-image: linear-gradient(to bottom, black 50%, transparent);
-}
- .css-70qvj9  { 
-    font-family: 'Lucida Sans';
-    font-size: 14px;
-    color: white;
-    text-shadow: 0px 0px black; 
-    -webkit-text-stroke: 0px black; 
-}
-.css-1ciz3n { 
-    display: none;
-    font-family: 'Lucida Sans';
-    font-size: 11px;
-    color: white;
-    background: transparent;
-    border: 0px black;
-}
-.css-wjj1lc { 
-    display: none;
-}
-.css-hjkukh { 
-    display: none;
-    position: relative;
-    justify-content: center; 
-    filter: FILTER; 
-}
-.Btn:before { 
-    color: yellow; 
-    background-color: purple; 
-    font-family: 'Lucida Sans';
-}
-.Btn { 
-    background: black;
-} 
-.css-y9k5u7 { 
-    justify-content: center; 
-}
-
-
-
-details summary::-webkit-details-marker {
-  display: none
-}
-
-details > summary {
-  list-style: none;
-}
-
-
-
-.profile-block {
-  text-align: center;
-  font-family: 'Lucida Sans';
-  font-size: 20px;
-  border: 1px solid black;
-  border-radius: 12px;
-  margin: 10px 0;
-  
-  overflow: hidden; 
-}
-
-.profile-block summary {
-  background-color: white;
-  color: black;
-  cursor: pointer;
-  list-style: none; 
-  padding: 10px 15px;
-  border-radius: 3px 3px 0 0;
-}
-
-.profile-block .profile-block-content {
-  background-color: darkgray; 
-  padding: 15px;
-  border-top: 1px solid darkgray;
-}
-
-/*===========END OF SECTION==========*/
-
-/* =====FOLLOWING / OPTIONS BUTTONS SECTION ===== */
-/* positions in middle */
-.css-y9k5u7 {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    gap: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    justify-content: center;
-}
-
-/*==========================================*/
-
-/*== FOLLOW BUTTON ==*/
-/* styling */
-.Btn {
-    border-radius: 1px;
-    transition-duration: 0.2s;
-}
-
-.Btn::before {
-    color: #ffffff00;
-    transition-duration: 0.2s;
-    background-color: #0e0e0f00;
-}
-
-.Btn:hover, .Btn[data-hover] {
-    transition-duration: 0.2s;
-}
-/* text */
-.css-e9kr8m {
-    font-family: 'Lato';
-    font-weight: 600;
-}
-
-/*==========================================*/
-
-/* == OPTIONS BUTTON == */
-.css-15w88gn {
-    border-radius: 1px;
-    text-transform: uppercase;
-    font-family: 'Lato';
-}
-
-/* inverse on hover */
-.css-15w88gn:hover, .css-15w88gn[data-hover] {
-}
-
-/*==========================================*/
-
-/* == PERSONAL MENU - TOP RIGHT == */
-.css-19h42zx { /* styling the menu */
-    outline: none;
-    border-radius: 1px;
-    box-shadow: none;
-}
-
-.css-19h42zx { /* styling the menu */
-    outline: none;
-    border-radius: 1px;
-    box-shadow: none;
-}
-
-.css-19h42zx > a { /* styles the text */
-font-family: 'Lato';
-text-transform: uppercase;
-}
-
-/*===========END OF SECTION==========*/
-
-/*===========BOT PAGE SECTION============*/
-/* hides characters button */
+ <style>
 .css-i3ef4m {
     visibility: hidden;
 }
-/* # OF CHARACTERS BUTTON */
+
 .Btn2-purple {
     border: none;
     background: none;
@@ -538,61 +15,763 @@ text-transform: uppercase;
 font-size: 14px;
 }
 .Btn2-purple > .css-wd8hou p {
-font-size: 0px; /* this hides the characters text */
+font-size: 0px; 
 }
 .Btn2-purple > .css-wd8hou p::after {
 transition-duration: 0s;
 color: white;
 font-size: 14px;
-content: 'bots'; /* this replaces the "characters" text - you can write what you want */
+content: 'bots'; 
+}
+   
+
+
+summary {
+  font-family: 'Lacquer', sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff; 
+  cursor: pointer;
+  text-shadow: 0 0 8px #00ffcc, 0 0 16px #0099aa;
+  transition: 0.3s ease;
 }
 
-/*==========================================*/
 
-/* ===========BOT CARD =========== */
+summary:hover {
+  color: #86fefe;
+  text-shadow: 0 0 10px #1affff, 0 0 20px #d1fff0;
+}
+
+
+.details-content {
+  font-family: 'Jura', sans-serif;
+  color: #d6d6d6;
+  font-size: 16px;
+  margin-top: 8px;
+  line-height: 1.5;
+}
+
+@keyframes rain {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+.rain-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1; 
+  pointer-events: none;
+}
+
+.raindrop {
+ position: absolute;
+  width: 2px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.2); 
+  border-radius: 2px;
+  animation: rain 3.5s linear infinite; 
+}
+
+.raindrop:nth-child(odd) {
+   background: rgba(166, 166, 166, 0.25);
+}
+
+.pp-uc-background, .pp-uc-background > div:empty { 
+  background: transparent !important;
+}
+.pp-uc-background { 
+  width: 36rem;
+  z-index: 2;
+}
+ .pp-uc-background:hover {
+  box-shadow: none;
+}
+   
+   .css-1x04uxb { 
+  display: none;
+}  
+.pp-uc-title {
+  font-family: Cinzel Decorative, serif;
+  font-variant: small-caps;
+  font-size: clamp(1rem, 6vw, 3rem);
+  color: #white;
+  text-shadow: 0 0 0.5rem
+  box-shadow: 
+        0 0 10px 2px white,
+        0 0 20px 5px #32aea2;
+}
+
+.pp-uc-avatar-container {
+  height: 450px; 
+  width: -100%;
+}
+.pp-uc-avatar {
+  height: 100%;
+  width: 100%;
+  object-position: 25% 5%; 
+  box-shadow: none;
+  border-radius: 0;
+  border: 2px solid #6D0609;
+  outline: 1px solid #6D0609;
+  outline-offset: 4px;
+}
+
+   
+.css-7ey189, .css-7ey189:hover {
+    box-shadow: 
+        0 0 10px 2px #20d9fe,
+        0 0 20px 5px #44dacb;
+    background: ##00000000;
+    background-color: ##00000000;
+}
+.css-13wmn96, .css-13wmn96:hover {
+    box-shadow: 
+        0 0 10px 2px #00996b,
+        0 0 20px 5px #00a897;
+}
+.css-o5an2m, .css-o5an2m:hover {
+    text-shadow: 
+        0 0 10px 2px white,
+        0 0 20px 5px turquoise;
+}
+.povstyle {
+    color: white;
+   text-align: center; 
+    text-shadow: 
+        0 0 10px 2px white,
+        0 0 20px 5px #00f5d8;
+}
+  .povstyle span {
+    color: white;
+    text-shadow:
+        0 0 5px white,
+        0 0 10px #00a2ad,
+        0 0 15px #00b8b5,
+        0 0 20px #60a9a2,
+        0 0 35px #34b2a5,
+        0 0 40px #000000;
+     
+}
+ 
+ 
+.lav-about-image {
+  position: absolute;
+  bottom: -1.5rem;
+  left: -1.3rem; 
+  width: 90px;
+  height: auto;
+}
+
+
+.Btn {
+    border-radius: 4px;
+    border: 2px solid rgba(64, 224, 208, 0.6); 
+    text-transform: uppercase;
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    background: transparent; 
+    padding: 8px 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-shadow: 
+        0 0 4px rgba(0, 255, 204, 0.4),
+        0 0 8px rgba(0, 153, 170, 0.3);
+    box-shadow: 
+        0 0 4px rgba(0, 255, 204, 0.3),
+        0 0 8px rgba(0, 162, 173, 0.3),
+        0 0 12px rgba(0, 184, 181, 0.25),
+        0 0 18px rgba(96, 169, 162, 0.2);
+}
+
+.Btn:hover,
+.Btn[data-hover] {
+    box-shadow:
+        0 0 6px rgba(0, 255, 204, 0.5),
+        0 0 12px rgba(0, 162, 173, 0.4),
+        0 0 18px rgba(0, 184, 181, 0.35),
+        0 0 24px rgba(52, 178, 165, 0.3);
+    transform: scale(1.05);
+}
+
+.Btn::before,
+.Btn::after {
+    background: transparent !important;
+    content: none !important;
+}
+
+.css-15w88gn {
+    border-radius: 4px;
+    border: 2px solid rgba(64, 224, 208, 0.6);
+    text-transform: uppercase;
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    background: transparent;
+    padding: 8px 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-shadow: 
+        0 0 4px rgba(0, 255, 204, 0.4),
+        0 0 8px rgba(0, 153, 170, 0.3);
+    box-shadow: 
+        0 0 4px rgba(255, 255, 255, 0.25),
+        0 0 8px rgba(0, 162, 173, 0.3),
+        0 0 12px rgba(0, 184, 181, 0.25),
+        0 0 18px rgba(96, 169, 162, 0.2);
+}
+
+.css-15w88gn:hover,
+.css-15w88gn[data-hover] {
+    background: transparent; 
+    box-shadow:
+        0 0 6px rgba(255, 255, 255, 0.35),
+        0 0 12px rgba(0, 162, 173, 0.4),
+        0 0 18px rgba(0, 184, 181, 0.35),
+        0 0 24px rgba(52, 178, 165, 0.3);
+    transform: scale(1.05);
+}
+
+   
+.css-19h42zx a,svg,   .css-1yhasuw, .glow-on-hover:hover:after, .css-18yip8r, .css-xl71ch svg, #search-input, .css-wd8hou p::after,  .css-euh5x6, .css-zgqw37, .css-6pkpcc, .css-7l95y2, .css-1on0xzz, .css-g6u0eg, .css-1f84q7v, .css-19n8j7q, .css-q0xxaj, .css-313uz2 p, .css-1mdnznj,  .css-19h42zx, .css-1n2in4t, .css-x2gqu0, .pp-cc-tags-wrap-custom span, .dark .react-select__dropdown-indicator, .colored .react-select__dropdown-indicator, .transparent .react-select__dropdown-indicator, .react-select__menu-portal .react-select__dropdown-indicator {
+    color: #f2f2f2;
+   fill:turquoise !important;
+}
+.css-1n2in4t > svg, .css-8l42c1 > svg, .css-xl71ch > svg  {
+    color: #808080 !important;
+}
+
+.css-2zp1xp, .css-1s5evre:hover .css-zgqw37,  [data-hover], [data-hover] {
+    background: #616161;
+    background-color: #2e2e2e;
+}
+
+ 
+   
+.css-1w58nos, .css-oqdsp6, .css-19h42zx, .css-1w58nos, .css-19h42zx {
+    border: 1px solid white;
+}
+
+
+
+.search-input:after, .css-bda9ez, .css-96l1id, .css-96l1id p, .css-96l1id p > span, .css-bar9lc div:has(svg), .dark .react-select__placeholder, .colored .react-select__placeholder, .css-8l42c1, .transparent .react-select__placeholder, .dark .react-select__single-value, .colored .react-select__single-value, .transparent .react-select__single-value, .react-select__menu-portal .react-select__placeholder, .react-select__menu-portal .react-select__single-value, .css-178jenf, .css-15p9u6a, .css-18yip8r:hover, .css-313uz2 a, .css-vdzdjh > strong, .css-wd8hou strong, .css-scy8li {
+    color: gray;
+}
+
+
+
+
+.css-1knepg6, css-1q6w2dx, .css-1utguok  {
+color: #363636;
+}
+
+.css-g6u0eg, .search-input, .css-3rot3, .css-1n2in4t, .css-vqimyu > div:first-child, .css-1sxhvxh .css-0, .css-12lnk4a .css-0, .css-v57joh .css-0, .css-v8syye, .css-pibr72, .css-fv6c2q, .dark.react-select-control, .colored.react-select-control, .transparent.react-select-control, .chakra-ui-dark.react.select-control, .chakra-ui-dark.react.select-menu, .chakra-ui-dark.react.select-option, .chakra-ui-dark.react.select-option:hover, .chakra-ui-dark.react.select-option.selected, .chakra-ui-dark.react.select-indicator-separator, .chakra-ui-dark.react.select-dropdown-indicator, .chakra-ui-dark.react.select-placeholder, .chakra-ui-dark.react.select-single-value, .chakra-ui-dark.react.select-menu.portal.control, .chakra-ui-dark.react.select-menu.portal.menu, .chakra-ui-dark.react.select-menu.portal.option, .css-x2gqu0, .pp-cc-tags-wrap-custom span, .css-1pibr72, .css-1fv6c2q, .css-1w58nos, .dark .react-select__control, .colored .react-select__control, .transparent .react-select__control, .react-select__menu-portal .react-select__control, .css-x2gqu0:hover, .css-x2gqu0[data-hover]  {
+    border: 1px solid #363636;
+}
+
+
+
+
+.css-g6u0eg, .css-x2gqu0, .pp-cc-tags-wrap-custom span, .css-zgqw37, .css-6pkpcc, .css-7l95y2, .css-1on0xzz, details summary::before, details, .pp-page-background, .css-1a7v8fx, .dark .react-select__indicator-separator, .colored .react-select__indicator-separator, .transparent .react-select__indicator-separator, .react-select__menu-portal .react-select__indicator-separator, .dark .react-select__option:hover, .colored .react-select__option:hover, .transparent .react-select__option:hover, .react-select__menu-portal .react-select__option:hover {
+    background-color: rgba(60, 221, 194, 0.1);
+  box-shadow: 
+   0 0 10px 2px rgba(0, 251, 255, 0.6),
+        0 0 20px 5px rgba(36, 185, 235, 0.4);
+}
+
+details[open] .details-content {
+    border: 1px solid #141414;
+}
+
+
+
+.dark .react-select__option--is-selected, .css-1s5evre:hover .css-zgqw37, .colored .react-select__option--is-selected, .transparent .react-select__option--is-selected, .react-select__menu-portal .react-select__option--is-selected,   {
+    color: black;
+}
+
+.css-p641ht,   .css-1w58nos, .search-input, .css-1n2in4t, .css-8l42c1, .css-19cg9cj, .css-1pibr72, .css-1fv6c2q, div:has(~ .css-1s5evre), .chakra-ui-dark .css-irb94a:not([data-theme]), [data-theme="dark"] .css-irb94a:not([data-theme]), .css-irb94a[data-theme="dark"], .transparent .react-select__control, .dark .react-select__control, .colored .react-select__control, .transparent .react-select__control, .react-select__menu-portal .react-select__control, .dark .react-select__menu, .colored .react-select__menu, .transparent .react-select__menu, .react-select__menu-portal .react-select__menu, .css-v8syye, .details-content, .css-3rot3, .css-19akvax, .css-19h42zx, .css-1skvcpg, .css-bqd4p6, .css-1qf4tpw {
+    background: rgb(33, 33, 33);
+    background-color: rgb(61, 61, 61);
+}
+
+.css-jdhqy4 > div {
+    border: 1px solid black;
+}
+
+
+
+
+p { 
+color: white;
+}
+
+{
+color: white;
+}
+a:hover {
+color: #6e6e6e;
+}
+
+::selection {
+    background: #737373 !important;
+    color: white;
+}
+
+
+
+
+.css-p641ht {
+    box-shadow: none;
+    backdrop-filter: none;
+}
+
+.css-e8xvxi  { 
+  border: 0px;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+  text-shadow: none;
+}
+
+.pp-top-bar-logo-name  {
+    font-family: 'DM SANS';
+    font-weight: 600;
+    font-size: 2em;
+    color: #90f9d6;
+    text-shadow:
+        0 0 5px #4b91d2,
+        0 0 10px #000000,
+        0 0 15px #007c85,
+        0 0 20px #3c9f97,
+        0 0 25px #008f81;
+}
+
+
+.pp-top-bar-logo-sub-name {
+    font-weight: 400;
+    font-family: Raleway;
+    color: #90f9d6;
+   text-shadow:
+        0 0 5px #4b91d2,
+        0 0 10px #000000,
+        0 0 15px #007c85,
+        0 0 20px #15413d,
+        0 0 25px #008f81;
+}
+
+
+
+
+.css-1yhasuw {
+  font-family: 'DM SANS';
+  text-transform: uppercase;
+  position: relative;
+  background: none;
+}
+.glow-on-hover::before, .glow-on-hover::after {
+  background: none;
+}
+
+
+
+
+.css-18yip8r ,.css-18yip8r:hover{
+background: none;
+}
+
+.css-2zp1xp {
+background-color: #ffffff;
+outline: rgb(0 0 0) solid 1px;
+  
+}
+
+.css-fss3o9, .css-fss3o9 > div {
+background: none;
+}
+
+
+
+
+._mentions--singleLine_ulsrn_1,
+#search-input {
+    margin: 0;
+    top: 50% !important;
+    transform: translateY(0%);
+}
+
+
+#search-input {
+    font-family: 'Lato', sans-serif !important;
+    font-size: 1rem !important;
+    font-weight: normal;
+    caret-color: #fff;
+    transition: color 600ms ease, caret-color 600ms ease;
+}
+
+#search-input::placeholder {
+    opacity: 0;
+}
+
+.search-input:after {
+    content: "Search";
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    position: absolute;
+    max-width: 100%; 
+    top: 50%;
+    transform: translateY(-50%);
+    white-space: normal;  
+    display: block;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    pointer-events: none;
+    transition: color 600ms ease, opacity 300ms ease;
+    width: 100%;  
+    text-align: center;  
+}
+
+#search-input,
+.css-bar9lc:focus-within .search-input:after,
+.search-input:has(#search-input:not(:placeholder-shown)):after {
+    opacity: 0;
+}
+
+.css-bar9lc:focus-within #search-input,
+.search-input:has(#search-input:not(:placeholder-shown)) #search-input {
+    opacity: 1;
+}
+
+
+
+
+
+.search-input {
+    position: relative;
+    overflow: hidden;
+    border-radius: 2px;
+    transition: background-color 600ms ease;
+}
+    
+.css-bar9lc div:has(svg) {
+    opacity: 1; 
+    transition: color 600ms ease;
+}
+
+.css-bar9lc:hover .search-input:after,
+.css-bar9lc:hover div:has(svg),
+.css-bar9lc:hover #search-input {
+    color: white;
+    caret-color: white;
+}
+.css-bar9lc:hover .search-input {
+    background-color: transparent;
+}
+.search-input:hover {
+    box-shadow: none;
+}
+
+
+
+
+
+.css-1uodvt1 { 
+    padding-top: 0px;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+}
+.css-5khvnw { 
+    display: none;
+}
+.css-18bnokj { 
+    height: 450px;
+    width: 300px; 
+    border-radius: 1pc; 
+    border: 0px black;
+    box-shadow: none !important; 
+    mask-image: linear-gradient(to bottom, black 50%, transparent);
+  
+}
+ .css-70qvj9  { 
+    font-family: 'Lucida Sans';
+    font-size: 14px;
+    color: white;
+    text-shadow: 0px 0px black; 
+    -webkit-text-stroke: 0px black; 
+}
+.css-1ciz3n { 
+    display: none;
+    font-family: 'Lucida Sans';
+    font-size: 11px;
+    color: white;
+    background: transparent;
+    border: 0px black;
+}
+.css-wjj1lc { 
+    display: none;
+}
+.css-hjkukh { 
+    display: none;
+    position: relative;
+    justify-content: center; 
+    filter: FILTER; 
+}
+ 
+.css-y9k5u7 { 
+    justify-content: center; 
+}
+
+
+
+details summary::-webkit-details-marker {
+  display: none
+}
+
+details > summary {
+  list-style: none;
+}
+
+
+
+.profile-block {
+  text-align: center;
+  font-family: 'Lucida Sans';
+  font-size: 20px;
+  border: 1px solid #575757;
+  border-radius: 12px;
+  margin: 10px 0;
+  
+  overflow: hidden; 
+}
+
+.profile-block summary {
+  background-color: white;
+  color: #303030;
+  cursor: pointer;
+  list-style: none; 
+  padding: 10px 15px;
+  border-radius: 3px 3px 0 0;
+}
+
+.profile-block .profile-block-content {
+  background-color: #595959; 
+  padding: 15px;
+  border-top: 1px solid #595959;
+}
+
+
+
+
+
+.css-1uodvt1 { 
+    padding-top: 0px;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+}
+.css-5khvnw { 
+    display: none;
+}
+.css-18bnokj { 
+    height: 450px;
+    width: 300px; 
+    border-radius: 1pc; 
+    border: 0px #ff0000;
+    box-shadow: none !important; 
+    mask-image: linear-gradient(to bottom, #ff0000 50%, transparent);
+}
+ .css-70qvj9  { 
+    font-family: 'Lucida Sans';
+    font-size: 14px;
+    color: white;
+    text-shadow: 0px 0px #c20000; 
+    -webkit-text-stroke: 0px #e60000; 
+   color: #70dbdb; 
+  text-shadow:
+    0 0 5px #9cc9c9,
+    0 0 10px #133a3a,
+    0 0 20px #00adad,
+    0 0 40px #00ffff,
+    0 0 80px #22bfbf;
+  font-weight: 300;
+  animation: neonPulse 2s ease-in-out infinite alternate;
+}
+   
+   
+}
+.css-1ciz3n { 
+    display: none;
+    font-family: 'Lucida Sans';
+    font-size: 11px;
+    color: white;
+    background: transparent;
+    border: 0px black;
+}
+.css-wjj1lc { 
+    display: none;
+}
+.css-hjkukh { 
+    display: none;
+    position: relative;
+    justify-content: center; 
+    filter: FILTER; 
+}
+ 
+.css-y9k5u7 { 
+    justify-content: center; 
+}
+
+
+
+details summary::-webkit-details-marker {
+  display: none
+}
+
+details > summary {
+  list-style: none;
+}
+
+
+
+.profile-block {
+  text-align: center;
+  font-family: 'Lucida Sans';
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 12px;
+  margin: 10px 0;
+  
+  overflow: hidden; 
+}
+
+.profile-block summary {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  list-style: none; 
+  padding: 10px 15px;
+  border-radius: 3px 3px 0 0;
+}
+
+.profile-block .profile-block-content {
+  background-color: darkgray; 
+  padding: 15px;
+  border-top: 1px solid darkgray;
+}
+
+
+
+
+
+.css-y9k5u7 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+ 
+ 
+   .css-e9kr8m {
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+    color: #ffffff;  
+}
+
+ 
+ 
+
+
+
+.css-19h42zx { 
+    outline: none;
+    border-radius: 1px;
+    box-shadow: none;
+}
+
+.css-19h42zx { 
+    outline: none;
+    border-radius: 1px;
+    box-shadow: none;
+}
+
+.css-19h42zx > a { 
+font-family: 'Lato';
+text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+   
+
+.css-i3ef4m {
+    visibility: hidden;
+}
+ 
+
 div:has(~ .css-1s5evre) {
 border-radius: 0px !important;
 }
-/* removes box shadow on hover */
+
 .css-1sxhvxh:hover, .css-1sxhvxh[data-hover], .css-v57joh:hover, .css-v57joh[data-hover], .css-12lnk4a:hover, .css-12lnk4a[data-hover] .css-s64spq :hover, .css-1n07wna:hover, .css-s64spq[data-hover], .css-1n07wna[data-hover]{
     box-shadow: none;
 }
-/* how big the bot image is & get rid of the image border*/
+
 .css-1q7rmf0 ,.css-1q7rmf0>img, .css-1q7rmf0>video {
-    height: 250px;
+    height: 270px;
     border-radius: 0px;
 }
 
-/* DELETE THIS TO GET RID OF GRAY FILTER ON BOT CARDS! */
-.css-1q7rmf0>img, .css-1q7rmf0>video {
-    border-radius: 0px;
-filter: grayscale(1);
-}
-/* removes grayscale on hover */
 .css-1q7rmf0>img:hover, .css-1q7rmf0>video:hover {
 filter: grayscale(0);
 transition: filter 0.3s ease;
 }
 
-/* Removes the border on card */
+
 .css-1sxhvxh  .css-0, .css-12lnk4a  .css-0, .css-v57joh .css-0 , .css-s64spq .css-0, .css-1n07wna .css-0{
 background: none !important;
 }
 
-/*==========================================*/
 
-/* == BOT NAMES == */
-/* gets rid of padding */
+
+
+
 .css-nlxhw4 {
 padding: 0px;
 }
-/* puts bot name under image */
+
 .chakra-stack.css-1s5evre a {
 display: flex;
 flex-direction: column-reverse;
 justify-content: center;
 }
-/* styling for bot name */
+
 .css-zgqw37, .css-6pkpcc, .css-7l95y2, .css-1on0xzz,.css-kesdt6 {
     position: relative;
     overflow: hidden;
@@ -604,7 +783,7 @@ justify-content: center;
     width: 100%;
     transition: color 0.4s ease, background-color 0.4s ease; 
 }
-/*styling the 2025 bot name cus it's stubborn*/
+
 .css-kesdt6 {
   text-shadow: none;
   text-transform: lowercase;
@@ -613,7 +792,7 @@ justify-content: center;
     font-family: 'DM Serif Text';
   letter-spacing: -0.2px;
 }
-/* sheen effect on bot name */
+
 .css-zgqw37::before, .css-6pkpcc::before, .css-7l95y2::before,.css-kesdt6::before,.css-1on0xzz::before {
     content: '';
     position: absolute;
@@ -629,27 +808,35 @@ justify-content: center;
     );
     transform: skewX(-20deg);
 }
-/* trigger animation on hover */
-.css-1s5evre:hover .css-zgqw37::before {
-    animation: sheenMove 1s forwards;
-    background-color:#ffffff;
+
+
+
+  .css-1s5evre:hover .css-zgqw37::before {
+    animation: sheenMove 1s ease-in-out forwards;
+    background-color: rgba(161, 161, 161, 0.1); 
 }
-/* christmas bots */
+
+
+
+
+
+
+   
 .css-1s5evre:hover .css-6pkpcc::before {
     animation: sheenMove 1s forwards;
     background-color: #e2ffcf;
 }
-/* halloween bots */
+
 .css-1s5evre:hover .css-7l95y2::before {
     animation: sheenMove 1s forwards;
     background-color: #ffe4bd;
 }
-/* valentines bots */
+
 .css-1s5evre:hover .css-1on0xzz::before {
     animation: sheenMove 1s forwards;
     background-color: #ffd1e2;
 }
-/* 2025 bots */
+
 .css-1s5evre:hover .css-kesdt6::before {
     animation: sheenMove 1s forwards;
     background-color: #53b960;
@@ -665,46 +852,46 @@ justify-content: center;
 .css-1s5evre:hover .css-zgqw37 {
     transition: background-color 0.4s ease, color 0.4s ease;
 }
-/* hides creator name under bot name */
+
 .css-1m0lwfp,.css-vquwtv,.css-9pz3h, .css-1yeq7x5, .css-16f51li {
     visibility: hidden;
     height: 10px;
 }
-/* removes icons from seasonal event cards */
+
 .css-5v5qgx, .css-nip9dx, .css-xrg4vd,.css-1wqmh16 {
     visibility: hidden;
 }
 
-/*==========================================*/
 
-/* BOT DESCRIPTIONS */
+
+
 .css-96l1id, .css-96l1id p, .css-96l1id p > span {
     font-family: 'Lato';
     padding-top: 2px;
 }
-/* HIDES THE STAR & LINE */
+
 .pp-cc-star,.pp-cc-star-line {
   display: none;
 }
 
-/*==========================================*/
 
-/* == CHAT COUNT RIBBON == */
-/* credit to tigerdropped */
-/* Ribbon position: */
+
+
+
+
 .css-10cv7r2 {
-    top: 258px;
+    top: 279px;
     right: 57%;
 }
-/* Essentials */
-/* Negate inset, hidden overflow, drop shadow */
+
+
 .css-1ket5wn {
   inset: unset;
   overflow: visible;
   filter: none;
   padding: 0;
 }
-/* Remove weird shape, weird shadow, hidden overflow */
+
 ._content_1chl9_11 {
   clip-path: unset;
   padding: 0;
@@ -713,30 +900,30 @@ justify-content: center;
   overflow: visible;
   border-radius: 0;
 } 
-/* Text, background and icon */
+
 .css-euh5x6 {
     font-weight: 200;
     font-size: 12px;
     font-family: 'DM SANS';
     background: none;
-    border-bottom: 1px solid #ffffff7d;
+    border-bottom: 1px solid #828282;
 }
-/* Hide chat icon */
+
 .pp-cc-chats svg {
   display: none;
 }
-/* New icon */
+
 .pp-cc-chats::before {
-  content: "◐";
+  content: "💙";
 }
  css-10cv7r2 * {
   width: 100%;
 }
 
-/*==========================================*/
 
-/* == TAGS == */
-/* tag arrangement  */
+
+
+
 .css-k1urot {
     display: flex;
     list-style-type: none;
@@ -747,18 +934,18 @@ justify-content: center;
     justify-content: center;
     align-items: flex-end;
 }
-/* this styles the tags */
+
 .pp-cc-tags-item, .pp-cc-tags-wrap-custom span {
     font-weight: 200;
     outline: none;
     box-shadow: none;
     border-radius: 0px;
     font-size: 12px;
-    color: rgb(255 255 255 / 65%);
+    color: rgb(255 255 255 / 90%);
     text-overflow: ellipsis;
     width: 100%;
 }
-/* changes "limitless" tag */
+
 .pp-tag-limitless {
     width: 0px;
     font-size: 0px;
@@ -773,21 +960,21 @@ content: "🔞";
 color: white;
 }
 
-/*==========================================*/
 
-/* TOKEN COUNTER */
+
+
 .pp-cc-tokens-count {
-    font-size: 0.6rem;
-    font-family: 'DM SANS';
-    font-weight: 200;
-    letter-spacing: 0.5px;
+    font-size: 0.7rem;
+    font-family: 'Jura';
+    font-weight: 300;
+    letter-spacing: 0.9px;
     color: #ffffff70;
     text-shadow: none;
 }
-/*===========END OF SECTION==========*/
 
-/* =====LATEST DROPDOWN SECTION===== */
-/* decoration of the latest box */
+
+
+
 .transparent .react-select__control {
     border-radius: 1px;
 }
@@ -796,20 +983,20 @@ color: white;
     font-family: 'DM SANS';
 text-transform: uppercase;
 }
-/* border color when hovered */
+
 .dark .react-select__control:hover, .colored .react-select__control:hover, .transparent .react-select__control:hover, .react-select__menu-portal .react-select__control:hover {
     border-color: #ffffff70;
 }
-/* latest text color */
+
 .dark .react-select__placeholder, .colored .react-select__placeholder, .transparent .react-select__placeholder, .dark .react-select__single-value, .colored .react-select__single-value, .transparent .react-select__single-value, .react-select__menu-portal .react-select__placeholder, .react-select__menu-portal .react-select__single-value {
 }
-/* changes the line between latest and the arrow */
+
 .dark .react-select__indicator-separator, .colored .react-select__indicator-separator, .transparent .react-select__indicator-separator, .react-select__menu-portal .react-select__indicator-separator {
 }
-/* changes the arrow */
+
 .dark .react-select__dropdown-indicator, .colored .react-select__dropdown-indicator, .transparent .react-select__dropdown-indicator, .react-select__menu-portal .react-select__dropdown-indicator {
 }
-/* changes the look of the open menu */
+
 .dark .react-select__menu, .colored .react-select__menu, .transparent .react-select__menu, .react-select__menu-portal .react-select__menu {
     font-family: 'Raleway';
     text-transform: uppercase;
@@ -818,36 +1005,36 @@ text-transform: uppercase;
 font-size: 12px;
     box-shadow: none;
 }
-/* hovered option background */
+
 .dark .react-select__option:hover, .colored .react-select__option:hover, .transparent .react-select__option:hover, .react-select__menu-portal .react-select__option:hover {
     cursor: pointer;
 }
-/* selected option background + font color */
+
 .dark .react-select__option--is-selected, .colored .react-select__option--is-selected, .transparent .react-select__option--is-selected, .react-select__menu-portal .react-select__option--is-selected {
 }
-/* color of other options and lines between them */
+
 .dark .react-select__option, .colored .react-select__option, .transparent .react-select__option, .react-select__menu-portal .react-select__option {
     background-color: transparent;
     border-bottom: 1px solid #ffffff75;
 }
 
-/*==========================================*/
 
-/* == TAG BOX BUTTON == */
+
+
 .css-1n2in4t, .css-8l42c1 {
 border-radius: 1px;
 }
-/* tag icon color */
+
 .css-1n2in4t > svg, .css-8l42c1 > svg {
 }
-/* search for characters bar styling */
+
 .css-3rot3, .css-19akvax {
     font-size: 14px;
     text-transform: uppercase;
     font-family: 'Dm Sans';
     border-radius: 1px;
 }
-/* on hover */
+
 .css-3rot3:hover, .css-3rot3[data-hover] {
     border-color: #ffffff70;
 }
@@ -857,14 +1044,14 @@ border-radius: 1px;
     outline: none;
 }
 
-/*==========================================*/
 
-/* ========TAGS FILTER========= */
-/* tags filter box */
+
+
+
 .chakra-ui-dark .css-irb94a:not([data-theme]), [data-theme="dark"] .css-irb94a:not([data-theme]), .css-irb94a[data-theme="dark"] {
     border-radius: 1px;
 }
-/* header text */
+
 .css-dcyl1x {
     font-family: 'DM SANS';
     font-size: 0px;
@@ -915,21 +1102,21 @@ border: 1px solid white;
     font-weight: 600;
 }
 
-/*==========================================*/
 
-/* =====NOTIFICATION BOX ===== */
-/* styling the box */
+
+
+
     .css-v8syye {
         width: 500px;
         border-radius: 1px;
 }
 
-/* getting rid of glow on hover */
+
 .css-1rl3sf5:hover, .css-1rl3sf5[data-hover] {
     box-shadow: none;
 }
 
-/* "notifications" text */
+
 .css-1f84q7v {
     font-weight: 600;
     font-size: 20px;
@@ -937,10 +1124,10 @@ border: 1px solid white;
 }
 
 .css-19n8j7q, .css-q0xxaj {
-color: white; /* color of checks and x */
+color: white; 
 }
 
-/* notification header */
+
 .css-1mdnznj {
     font-size: 16px;
     font-family: 'DM SANS';
@@ -950,114 +1137,109 @@ color: white; /* color of checks and x */
     font-family: 'Lato';
 }
 
-/* notifs styling */
+
 .css-1pibr72, .css-1fv6c2q {
     border-radius: 1px;
 }
 
 .css-1rl3sf5 > div:empty {
-    background: transparent !important; /* gets rid of pink border */
+    background: transparent !important; 
 }
 
-/*===========END OF SECTION==========*/
 
-/*======== TOOLTIPS SECTION========= */
-/* TOOLTIPS */
+
+
+
 
 .css-jdhqy4 > div {
-    --tooltip-bg: #2e2e2e;
-    --tooltip-fg: #181818;
-    background-color: DARK GREY;
-    background: DARK GREY;
+    
+    
+    background-color: #2e2e2e;
+    background: #2e2e2e;
     color: white;
     backdrop-filter: blur(10px);
-    padding: 6px;
-    border-radius: 1px;
-    font-weight: 600;
+    padding: 12px;
+    border-radius:1px;
+    font-weight: 400;
     font-size: 14px;
     box-shadow: none;
     font-family: 'DM SANS';
 }
 
 @media (max-width: 480px) {
-  /* ===========MOBILE STYLING=========== */
-
-/* ================= MOBILE RESPONSIVE ADAPTATION ================= */
-@media (max-width: 768px) {
-  /* Center and resize text blocks for smaller screens */
+  
+  
+@media (max-width: 900px) {
+  
   .profile-block {
     font-size: 16px;
     margin: 8px 5px;
     padding: 10px;
   }
 
-  /* Ensure avatar and layout remain centered */
+  
   .css-1uodvt1 {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
-  /* Keep avatar image same size */
+  
   .css-18bnokj {
     width: 300px;
     height: 450px;
   }
 
-  /* Adjust username text for readability */
+  
   .css-70qvj9 {
     font-size: 13px;
   }
 
-  /* Stack buttons vertically for smaller screens */
+  
   .css-y9k5u7 {
     flex-direction: column;
     gap: 10px;
     align-items: center;
   }
 
-  /* Prevent horizontal scrolling */
+  
   body {
     overflow-x: hidden;
   }
 
-  /* Fix padding and spacing for tag list */
+  
   .css-k1urot {
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  /* Adjust text inside buttons */
-  .Btn, .css-15w88gn {
-    font-size: 14px;
-    padding: 8px 12px;
-  }
-
-  /* Make search input fit width */
+   
+  
   #search-input, .search-input {
     width: 90%;
     font-size: 14px;
   }
 
-  /* Center bot cards and text */
+  
   .css-1s5evre, .css-zgqw37 {
     text-align: center;
     justify-content: center;
   }
 
-  /* Ensure dropdowns and menus fit screen */
+  
   .react-select__menu {
     width: 90% !important;
     left: 5% !important;
   }
 }
-/* ================= END MOBILE ADAPTATION ================= */
 
-  /* ===========END OF SECTION=========== */
+
+  
 }
 
-/*====STYLING FOR HTML IN THE ACTUAL BIO SECTION====*/
-/* Base (drop-down) details styling */
+
+
+
 details {
     margin-top: 10px;
     display: inline-block;
@@ -1070,7 +1252,7 @@ details {
     margin-bottom: 10px;
     border: none;
 }
-/* Summary Styling */
+
 details summary {
     font-family: 'DM Sans', sans-serif;
     font-size: 20px;
@@ -1080,7 +1262,7 @@ details summary {
     position: relative;
     border: none;
 }
-/* Sheen pseudo-element */
+
 details summary::before {
   content: '';
   position: absolute;
@@ -1095,11 +1277,11 @@ details summary::before {
 details:hover summary::before {
   animation: sheenMoveSummary 1s forwards;
 }
-/* Remove default marker triangle */
+
 details summary {
     list-style: none;
 }
-/* this is the box your main text is inside */
+
 .details-content {
     max-height: 0;
     width: 100%;
@@ -1115,7 +1297,7 @@ details summary {
         padding-bottom .3s ease,
         border .4s ease; 
 }
-/* Only add border when open */
+
 details[open] .details-content {
     max-height: 500px; 
     opacity: 1;
@@ -1123,15 +1305,16 @@ details[open] .details-content {
     padding-top:12px;
     padding-bottom:12px;
 }
-/* Keyframes for sheen animation */
+
 @keyframes sheenMoveSummary {
     from { left: -75%; }
     to { left: 125%; }
 }
 
-/*==========================================*/
 
-/* TWO COLUMNS */
+
+
+
     .container {
       display: flex;
       width: 100%;
@@ -1145,66 +1328,21 @@ details[open] .details-content {
     .left {
    color: white;
    text-align: center;
-    } /* if you want to, you can make text on the left one color and centered */
+    } 
 
     .right {
    color: lightgray;
    text-align: center;
-    } /* and text on the right a different color! or anything you want, really... */
-
-/*==========================================*/
-
-/*TEXT STYLING*/
-.profile-title, .bot-name {color: var(--panda-primary);
-    font-weight: bold;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
-    position: relative;
-    display: inline-block;
-}
-
-.profile-title::after, .bot-name::after {content: "";
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    background-color: var(--panda-bamboo);
-}
-
-/* Bamboo pattern for borders */
-.bamboo-border {border-left: 15px solid var(--panda-bamboo);
-    border-right: 15px solid var(--panda-bamboo);
-    border-image: repeating-linear-gradient(
-        to bottom, var(--panda-bamboo), var(--panda-bamboo) 10px, #f5f5f5 10px, #f5f5f5 20px
-    ) 1;
-}
-
-/* Panda paw cursor */
-html {cursor: url("data:image/svg+xml;utf8, "), auto;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {.bot-card {width: 100%;
-    }
-    
-    .header::after {
-        width: 80px;
-        height: 15px;
-    }
-}
-
-/*===========END OF SECTION==========*/
-/* === BELOW THIS IS EVERYTHING THAT WILL BE VISIBLE IN YOUR BIO! === */
+    } 
+ 
 </style>
 <hr>
-<p><img src="https://64.media.tumblr.com/0376f0206943acaea78edd63b531734a/f3edca1db668f0c3-d2/s640x960/e22029c3ff623010b504ae5ad885ab3e257f1d70.pnj" alt="image" style=""></p>
-<br>
+<p><img src="https://64.media.tumblr.com/0376f0206943acaea78edd63b531734a/f3edca1db668f0c3-d2/s640x960/e22029c3ff623010b504ae5ad885ab3e257f1d70.pnj" alt="image"></p>
 <p class="povstyle"><span>ＡｎｙＰＯＶ ｘ ＦｅｍＰＯＶ ｘ ＭａｌｅＰＯＶ</span></p>
+
 <hr>
-<p> This is some text. Maybe you'd like to <b>bold some words</b>? Or <i>use italics</i>?</p>
-<br>
-Remember, you should <b> only ever edit your profile in the <a href="https://janitorai.com/profile-settings">settings menu</a></b>, or you risk the site deleting things!
-<br>
+  <img src="https://media.tenor.com/-ya6ndSe5wIAAAAi/neon-cat-neon.gif" alt="image" style="width:230px; height:auto;">
+
 
 <details>
   <summary>About me</summary>
@@ -1216,15 +1354,16 @@ Remember, you should <b> only ever edit your profile in the <a href="https://jan
         I make bots to experience the full range of emotions: tears, laughter, pain, and a smile. 
         Sometimes plot ideas come from Korean TV series, inspiration. 
         Each bot has its own problems and is injured, but I assure you, they are not black flags.
-        I make male and female bots, most often AnyPOV, but sometimes FemPOV or MalePOV (depending on the plot) 
+        I make male and female bots, most often AnyPOV, but sometimes FemPOV or MalePOV (depending on the plot).  
     </p>
     <p> 
         My hobbies: 
         <br>
         I have been playing computer games since I was 7 (my first MMORPG was Lineage 2). 
-        Love shooters, RPGs, simulators, detective games, and games with heartfelt stories where you can cry and laugh.
+        Love shooters, RPGs, simulators, detective games, and games with heartfelt stories where you can cry and laugh. I'm a big fan of DND, I actively play with people close to me.
     </p>
-  </div>
+     <p> 
+  </p></div>
 </details>
 
 <details>
@@ -1254,12 +1393,12 @@ Remember, you should <b> only ever edit your profile in the <a href="https://jan
     <p>
         Love:
         <br>
-        fantasy, dead pigeon, medieval, demihuman, fantasy, cyberpunk, Fluff, kuudere, tsundere, mental disorder, detectives, omegavers, students
+        fantasy, angst, dead pigeon, medieval, demihuman, cyberpunk, fluff, mental disorder, detectives, omegavers, students, half-man, horror, wlw, mlm
     </p>
     <p>
         Dislikes:
         <br>
-        Incest, femboys, minors
+        Incest, femboys, minors, smut
     </p>
     <p>
         Info:
@@ -1287,12 +1426,37 @@ Remember, you should <b> only ever edit your profile in the <a href="https://jan
     <p>
         Important!
         <br>
-        If the bot speaks for you, then unfortunately it's a JLLM or LLM problem. 
+        1)If the bot speaks for you, then unfortunately it's a JLLM or LLM problem. 
         All my bots are optimized/written in such a way that this does not happen. 
         Use prompt, OOC for this problem.
         <br>
-        English is not my first language. 
+       2)English is not my first language. 
         I use ChatGPT to check grammar, so if there are any mistakes, please let me know.
+       <br>
+      3)All scenarios on this account are fictitious, and are only written about due to them being purely fantasy. I do not condone any actions portrayed by bots, and any resemblance to real people is strictly coincidental.
     </p>
   </div>
-</details>
+</details> 
+  <div class="lav-about-image"><img src="https://i.postimg.cc/Pxw20rNZ/photo-2025-07-28-22-35-07-removebg-preview.png"></div>
+
+<div class="rain-container">
+ <div class="raindrop" style="left:3%;animation-duration:3.5s;animation-delay:0s;"></div>
+  <div class="raindrop" style="left:7%;animation-duration:2.9s;animation-delay:0.8s;"></div>
+  <div class="raindrop" style="left:12%;animation-duration:3.8s;animation-delay:1.1s;"></div>
+  <div class="raindrop" style="left:16%;animation-duration:3.2s;animation-delay:0.4s;"></div>
+  <div class="raindrop" style="left:21%;animation-duration:2.5s;animation-delay:1.3s;"></div>
+  <div class="raindrop" style="left:25%;animation-duration:3.9s;animation-delay:0.6s;"></div>
+  <div class="raindrop" style="left:30%;animation-duration:2.8s;animation-delay:1.5s;"></div>
+  <div class="raindrop" style="left:34%;animation-duration:3.3s;animation-delay:0.2s;"></div>
+  <div class="raindrop" style="left:38%;animation-duration:2.7s;animation-delay:0.7s;"></div>
+  <div class="raindrop" style="left:43%;animation-duration:3.4s;animation-delay:1.4s;"></div>
+  <div class="raindrop" style="left:47%;animation-duration:3s;animation-delay:0.9s;"></div>
+  <div class="raindrop" style="left:52%;animation-duration:3.6s;animation-delay:0.1s;"></div>
+  <div class="raindrop" style="left:57%;animation-duration:2.9s;animation-delay:1s;"></div>
+  <div class="raindrop" style="left:62%;animation-duration:3.7s;animation-delay:0.3s;"></div>
+  <div class="raindrop" style="left:68%;animation-duration:3.2s;animation-delay:1.2s;"></div>
+  <div class="raindrop" style="left:74%;animation-duration:2.8s;animation-delay:0.5s;"></div>
+  <div class="raindrop" style="left:80%;animation-duration:3.3s;animation-delay:1.6s;"></div>
+  <div class="raindrop" style="left:87%;animation-duration:3.1s;animation-delay:0.7s;"></div>
+  <div class="raindrop" style="left:93%;animation-duration:3.5s;animation-delay:1.1s;"></div>
+</div>
